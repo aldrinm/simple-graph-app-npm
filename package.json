@@ -1,0 +1,12 @@
+{
+  "name": "a-simple-graph-app",
+  "version": "1.0.0",
+  "description": "A very simple graph app",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -r dist || true && mkdir dist && cp *.html *.svg *.json *.md *.jpg dist || true"
+  },
+  "author": "Aldrin",
+  "license": "ISC"
+}
