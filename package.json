@@ -1,6 +1,6 @@
 {
   "name": "a-simple-graph-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A very simple graph app",
   "main": "index.html",
   "scripts": {
@@ -8,5 +8,8 @@
     "build": "rm -r dist || true && mkdir dist && cp *.html *.svg *.json *.md *.jpg dist || true"
   },
   "author": "Aldrin",
-  "license": "ISC"
+  "license": "ISC",
+  "neo4jDesktop" : {
+    "apiVersion" : "^1.2.0"
+  }
 }
